@@ -1,0 +1,96 @@
+h1{
+    font-size: 25px;
+    color: goldenrod;
+}
+h2{
+    font-size: 22px;
+    color: goldenrod;
+}
+h3{
+    font-size: 22px;
+    color: goldenrod;
+
+}
+h4{
+    font-size: 22px;
+    color: goldenrod;
+}
+h6{
+    font-size: 30px;
+    margin: 0;
+    color: goldenrod;
+
+}
+p{
+    font-size: 22px;
+    color: goldenrod;
+}
+body
+{
+    background: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 50%;
+}
+.learn{
+    background-color: white;
+    color: goldenrod;
+    padding: 10px;
+    border-radius: 20%;
+    font-family: cursive;
+    border: 3px solid gold;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.social{
+    border-radius: 30%;
+    width: 20;
+}
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+.card{
+    background-color: white;
+    margin: 32px 0;
+    border: 3px solid gold;
+    padding: 32px;
+    font-family: cursive;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.learn:hover{
+    background: black;
+}
+.social{
+    font-size: 100px;
+}
+a {
+    text-decoration: none;
+}
+.insta{
+    color: pink;
+}
+.linkedin{
+    color: blue;
+}
+.fb{
+    color: cornflowerblue;
+}
+@media(max-width:950px){
+    .container{
+        width: 700px
+    }
+}
+@media(max-width:500px){
+    .container{
+        width: 500px
+    }
+}
